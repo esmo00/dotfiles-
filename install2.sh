@@ -20,9 +20,7 @@ if [ $1 -ne "--install"] || [ $1 -ne "--backup" ]
 	              $SCRIPTNAME --install - Installs packages from the latest packages-<date>.list file\n
 	              $SCRIPTNAME --backup  - Generates a list of installed packages and saves it to a file\n
 	              "
-	  exit 1
-  fi
-fi
+	  exit 
 
 
 if [ "$?" -ne 0 ]; then
